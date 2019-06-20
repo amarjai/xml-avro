@@ -511,7 +511,7 @@ object SchemaBuilder {
     XSConstants.SHORT_DT -> Schema.Type.INT,
     XSConstants.UNSIGNEDBYTE_DT -> Schema.Type.INT,
     XSConstants.UNSIGNEDSHORT_DT -> Schema.Type.INT,
-    XSConstants.INTEGER_DT -> Schema.Type.STRING,
+    XSConstants.INTEGER_DT -> Schema.Type.LONG,
     XSConstants.NEGATIVEINTEGER_DT -> Schema.Type.STRING,
     XSConstants.NONNEGATIVEINTEGER_DT -> Schema.Type.STRING,
     XSConstants.POSITIVEINTEGER_DT -> Schema.Type.STRING,
